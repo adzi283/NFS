@@ -1,4 +1,4 @@
-# Simple NFS
+# My Network File System
 
 A minimal distributed file system split into three processes:
 - **Naming Server (NM):** directory / path mapper with an LRU cache; hands clients the IP:port of the Storage Server (SS) that serves a path.
